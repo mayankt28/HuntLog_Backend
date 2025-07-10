@@ -25,7 +25,7 @@ exports.register = async (req, res) => {
 
     res.cookie('refreshToken', refreshToken, {
       httpOnly: true,
-      secure: false, // change to true in prod with HTTPS
+      secure: true, // Prod 
       sameSite: 'strict',
       maxAge: 7 * 24 * 60 * 60 * 1000
     });
