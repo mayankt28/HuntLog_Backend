@@ -1,13 +1,10 @@
-### `README.md`
-
-````markdown
 # HuntLog API
 
 An express.js API for tracking job applications with secure JWT authentication, refresh tokens, password reset via email (SendGrid), and advanced CSV export filtering.
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🔐 JWT-based authentication (access + refresh tokens)
 - 🔄 Token refresh flow with secure cookies
@@ -20,7 +17,7 @@ An express.js API for tracking job applications with secure JWT authentication, 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB, Mongoose
