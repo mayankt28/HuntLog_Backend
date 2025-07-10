@@ -30,7 +30,7 @@ An express.js API for tracking job applications with secure JWT authentication, 
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/HuntLog_Backend.git
+git clone https://github.com/mayankt28/HuntLog_Backend.git
 cd HuntLog_Backend
 npm install
 ````
