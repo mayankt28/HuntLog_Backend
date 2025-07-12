@@ -14,6 +14,7 @@ app.use(cors({
 }));
 
 // Routes
+app.get('/', (req, res)=>{res.send('<h1>Hello World</h1>')})
 app.use('/api/v1/auth', require('../src/routes/auth'));
 app.use('/api/v1/jobs', require('../src/routes/jobs'));
 
